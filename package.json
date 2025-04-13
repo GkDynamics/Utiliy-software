@@ -1,0 +1,26 @@
+{
+  "name": "file-creator",
+  "version": "1.0.0",
+  "description": "A simple file creator app built with Electron",
+  "author": "Your Name",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "^29.0.0",
+    "electron-builder": "^26.0.12"
+  },
+  "build": {
+    "appId": "com.example.filecreator",
+    "productName": "FileCreator",
+    "files": [
+      "**/*"
+    ],
+    "directories": {
+      "output": "dist"
+    }
+  }
+}
